@@ -148,3 +148,8 @@ button[disabled] {
 .hide{
   display:none
 }
+
+textarea::placeholder{
+  font-family: 'Codystar', cursive;
+  font-weight: bold;  
+}

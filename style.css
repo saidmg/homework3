@@ -153,3 +153,12 @@ textarea::placeholder{
   font-family: 'Codystar', cursive;
   font-weight: bold;  
 }
+
+footer{
+  background-color: white;
+  padding: 1%;
+  border-top-style: solid;
+  border-top-color: rgb(4, 3, 58);
+  border-width: 0.5em;
+  text-align: center;
+}

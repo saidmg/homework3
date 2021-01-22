@@ -17,11 +17,7 @@
         <header>
             <h1 style="color: white;font-family: 'Bungee Inline', cursive;">Password Generator</h1>
             <section class="hide">
-                <p id="demo0"></p>
-                <p id="demo1"></p>
-                <p id="demo2"></p>
-                <p id="demo3"></p>
-                <p id="demo4"></p>
+                <p id="demo0"></p><p id="demo1"></p><p id="demo2"></p><p id="demo3"></p><p id="demo4"></p>
             </section>
         </header>
         <section class="card">
@@ -30,14 +26,14 @@
             </section>
             <section class="card-body">
                 <textarea readonly id="password" placeholder="Your Secure Password"
-                    aria-label="Generated Password"></textarea>
+                    aria-label="Generated Password" style="font-weight: bold;"></textarea>
             </section>
 
             <section class="hide" id="showMore">
                 <p>Please Choose Your Password Length ( between 8 and 128 )</p>
                 <p class="hide" id="error2" style="color: red;">Please Choose A length between 8 and 128</p>
                 <input type="number" id="myNumber" value="8" style="text-align: center;"><br><br>
-                <input class="btn" type="submit" onclick="shownextButtons()" value="next">
+                <input class="btn" type="submit" onclick="shownextButtons()" value="Next">
             </section>
 
             <section class="hide" id="showMore2">
@@ -59,7 +55,7 @@
             </section>
 
             <section class="card-footer">
-                <button id="generate" class="btn" onclick="showButtons()">Generate Password</button>
+                <button id="generate" class="btn" onclick="showButtons()">Let's Begin!</button>
             </section>
         </section>
     </section>

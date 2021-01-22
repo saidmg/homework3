@@ -15,7 +15,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
-  background-image: url('./Assets/wall4.png');/* Set a background image for the website */
+  background-image: url('./Assets/wallpaper.png');/* Set a background image for the website */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

@@ -6,7 +6,11 @@ An application that enables employees to generate random passwords based on crit
 
 # Sample Pictures
 * Screenshots are available inside ./assets/screenshots/ for more details
-
+![GitHub Logo](/Assets/screenshots/display_1.jpeg)
+![GitHub Logo](/Assets/screenshots/display_2.jpeg)
+![GitHub Logo](/Assets/screenshots/display_3.jpeg)
+![GitHub Logo](/Assets/screenshots/display_4.jpeg)
+![GitHub Logo](/Assets/screenshots/mobile_screen_display.jpeg)
 
 # URLS
 * The URLs of the deployed applications:  https://saidmg.github.io/homework3/

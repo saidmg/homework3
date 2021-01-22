@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 style="color: white;">Password Generator</h1>
+            <div class="hide">
+                <p id="demo0"></p>
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+                <p id="demo3"></p>
+                <p id="demo4"></p>
+            </div>
+        </header>
+        <div class="card">
+            <div class="card-header">
+                <h2>Generate a Password</h2>
+            </div>
+            <div class="card-body">
+                <textarea readonly id="password" placeholder="Your Secure Password"
+                    aria-label="Generated Password"></textarea>
+            </div>
+
+            <div class="hide" id="showMore">
+                <p>Please Choose Your Password Length ( between 8 and 128 )</p>
+                <p class="hide" id="error2" style="color: red;">Please Choose A length between 8 and 128</p>
+                <input type="number" id="myNumber" value="8" style="text-align: center;"><br><br>
+                <input class="btn" type="submit" onclick="shownextButtons()" value="next">
+            </div>
+
+
+            <div class="hide" id="showMore2">
+                <p>What Would You like to include in your password? ( Atleast One )</p>
+                <p class="hide" id="error1" style="color: red;">Please Choose At Least One</p>
+                <input type="checkbox" id="lowerCaseId" name="lowerCase" value=false>
+                <label for="lowerCaseId"> Lower Case</label>
+                <input type="checkbox" id="upperCaseId" name="upperCase" value="false">
+                <label for="upperCaseId"> UpperCase</label>
+                <input type="checkbox" id="numberId" name="number" value="false">
+                <label for="numberId"> Number</label>
+                <input type="checkbox" id="specialCharacterId" name="specialCharacter" value="false">
+                <label for="specialCharacterId"> Special Characters</label><br><br>
+                <input class="btn" type="submit" onclick="postDesision()" value="Done">
+            </div>
+
+            <div class="hide" id="final">
+                <input class="btn" type="submit" onclick="window.location.reload()" value="Reset">
+            </div>
+
+            <div class="card-footer">
+                <button id="generate" class="btn" onclick="showButtons()">Generate Password</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
